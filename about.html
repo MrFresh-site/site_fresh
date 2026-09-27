@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Обо мне</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="window">
+    <div class="title-bar">
+      <div class="title"><span>📄</span> Обо мне</div>
+      <div class="controls"><span>_</span><span>□</span><span>×</span></div>
+    </div>
+    <div class="menu">
+      <a href="index.html">Главная</a>
+      <a href="about.html" class="active">Обо мне</a>
+      <a href="hobbies.html">Увлечения</a>
+      <a href="thoughts.html">Мысли</a>
+    </div>
+    <div class="window-body">
+
+      <div class="panel reveal">
+        <h2>Кто я</h2>
+        <p>Привет! Здесь будет пара абзацев о тебе. Например, как тебя зовут,
+           чем занимаешься, где живёшь, что любишь.</p>
+        <p>Можно добавить фото себя:</p>
+        <img src="avatar.png" alt="Моё фото" class="media" style="max-width: 300px;">
+      </div>
+
+      <div class="panel reveal reveal-delay-1">
+        <h2>Факты обо мне</h2>
+        <div class="grid">
+          <div class="card"><h3>🎂 Возраст</h3><p>Здесь твой возраст или дата рождения.</p></div>
+          <div class="card"><h3>📍 Город</h3><p>Где ты живёшь.</p></div>
+          <div class="card"><h3>💼 Работа</h3><p>Чем занимаешься.</p></div>
+          <div class="card"><h3>🎯 Цель</h3><p>О чём мечтаешь.</p></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="taskbar">
+    <div class="start">🪟 Пуск</div>
+    <div class="tasks"><div class="task">Обо мне</div></div>
+    <div class="clock" id="clock">--:--</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

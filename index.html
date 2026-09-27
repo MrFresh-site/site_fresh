@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Мой сайт</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="window">
+    <div class="title-bar">
+      <div class="title"><span>💾</span> Мой сайт — Главная</div>
+      <div class="controls"><span>_</span><span>□</span><span>×</span></div>
+    </div>
+    <div class="menu">
+      <a href="index.html" class="active">Главная</a>
+      <a href="about.html">Обо мне</a>
+      <a href="hobbies.html">Увлечения</a>
+      <a href="thoughts.html">Мысли</a>
+    </div>
+    <div class="window-body">
+
+      <div class="panel reveal">
+        <div class="avatar-block">
+          <div class="avatar">
+            <!-- Замени на <img src="avatar.png" alt="Аватар"> -->
+            👤
+          </div>
+          <div class="welcome-text">
+            <h1>Привет! Ты зашёл на мой сайт 👋</h1>
+            <p>Здесь ты найдёшь:</p>
+            <ul>
+              <li>📖 Немного информации <a href="about.html">обо мне</a></li>
+              <li>🎮 Мои <a href="hobbies.html">увлечения</a></li>
+              <li>💭 Мои <a href="thoughts.html">мысли</a> и заметки</li>
+            </ul>
+            <p>Располагайся поудобнее — как в старые добрые времена.</p>
+            <a href="about.html" class="btn">Начать знакомство →</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel reveal reveal-delay-1">
+        <h2>Что тут вообще происходит?</h2>
+        <p>Это мой личный уголок в интернете. Оформление — привет из 90-х,
+           а внутри — современные технологии: плавные анимации, адаптивная вёрстка,
+           приятные переходы. Ностальгия + современность.</p>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="taskbar">
+    <div class="start">🪟 Пуск</div>
+    <div class="tasks"><div class="task">Мой сайт</div></div>
+    <div class="clock" id="clock">--:--</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

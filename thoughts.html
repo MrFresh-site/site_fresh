@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Мысли</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="window">
+    <div class="title-bar">
+      <div class="title"><span>💭</span> Мои мысли</div>
+      <div class="controls"><span>_</span><span>□</span><span>×</span></div>
+    </div>
+    <div class="menu">
+      <a href="index.html">Главная</a>
+      <a href="about.html">Обо мне</a>
+      <a href="hobbies.html">Увлечения</a>
+      <a href="thoughts.html" class="active">Мысли</a>
+    </div>
+    <div class="window-body">
+
+      <div class="panel reveal">
+        <h2>Заметка #1 — Начало</h2>
+        <p><em>Дата: сегодня</em></p>
+        <p>Здесь можно писать всё что угодно: размышления, короткие заметки,
+           идеи, цитаты. Каждая запись — отдельный блок.</p>
+      </div>
+
+      <div class="panel reveal reveal-delay-1">
+        <h2>Заметка #2 — О чём-то важном</h2>
+        <p><em>Дата: вчера</em></p>
+        <p>Ещё одна заметка. Просто добавляй новые <code>&lt;div class="panel"&gt;</code>
+           блоки — и они сами появятся с анимацией.</p>
+      </div>
+
+      <div class="panel reveal reveal-delay-2">
+        <h2>Заметка #3 — Мысль на будущее</h2>
+        <p><em>Дата: скоро</em></p>
+        <p>Место для твоих идей.</p>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="taskbar">
+    <div class="start">🪟 Пуск</div>
+    <div class="tasks"><div class="task">Мысли</div></div>
+    <div class="clock" id="clock">--:--</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

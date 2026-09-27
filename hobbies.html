@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Увлечения</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="window">
+    <div class="title-bar">
+      <div class="title"><span>🎮</span> Мои увлечения</div>
+      <div class="controls"><span>_</span><span>□</span><span>×</span></div>
+    </div>
+    <div class="menu">
+      <a href="index.html">Главная</a>
+      <a href="about.html">Обо мне</a>
+      <a href="hobbies.html" class="active">Увлечения</a>
+      <a href="thoughts.html">Мысли</a>
+    </div>
+    <div class="window-body">
+
+      <div class="panel reveal">
+        <h2>Чем я занимаюсь в свободное время</h2>
+        <p>Пара слов о том, что тебя увлекает. Ниже — карточки с примерами,
+           можешь заменить их на свои.</p>
+      </div>
+
+      <div class="grid">
+        <div class="card reveal"><h3>🎮 Игры</h3><p>Во что играешь, что нравится.</p></div>
+        <div class="card reveal reveal-delay-1"><h3>📚 Книги</h3><p>Что читаешь.</p></div>
+        <div class="card reveal reveal-delay-2"><h3>🎵 Музыка</h3><p>Что слушаешь.</p></div>
+        <div class="card reveal reveal-delay-3"><h3>✏️ Творчество</h3><p>Рисование, музыка, код — что угодно.</p></div>
+      </div>
+
+      <div class="panel reveal" style="margin-top: 16px;">
+        <h2>Пример видео</h2>
+        <p>Сюда можно вставить YouTube или VK видео. Просто замени ссылку.</p>
+        <div class="video-wrap">
+          <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                  title="Видео" allowfullscreen></iframe>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="taskbar">
+    <div class="start">🪟 Пуск</div>
+    <div class="tasks"><div class="task">Увлечения</div></div>
+    <div class="clock" id="clock">--:--</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
